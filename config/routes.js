@@ -9,6 +9,7 @@
  */
 
 module.exports.routes = {
-  'GET /': { action: 'kurento-cilent-test/index' }
-
+  'GET /': { action: 'kurento-cilent-test/index' },
+  'GET /hello': { action: 'kurento-cilent-test/hello-socket' },
+  // 'GET /client': { view: 'ws-client' }
 };
